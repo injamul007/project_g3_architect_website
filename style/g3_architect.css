@@ -122,7 +122,33 @@ main {
 }
 /* Teams section Ends here */
 /*? Feature will enjoy section Starts here */
-
+.features {
+  gap: 100px;
+}
+.features > div {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#feature_section_title {
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.features_description {
+  margin-block: 24px;
+}
+.feature_card_container {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.07);
+  margin-bottom: 20px;
+}
+.feature_card_container .feature_title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.feature_card_container p {
+  margin-top: 10px;
+}
 /*? Feature will enjoy section Ends here */
 /*? Some facts section Starts here */
 .some_facts_section {
@@ -178,7 +204,7 @@ main {
   filter: grayscale(100%);
 }
 /*? Our sponsors section Ends here */
-/* main section Ends here */
+/*? main section Ends here */
 
 
 
