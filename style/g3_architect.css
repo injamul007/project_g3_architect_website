@@ -99,4 +99,11 @@
   .navbar, .nav_links {
     flex-direction: column;
   }
+  .banner_title {
+    font-size: 2rem;
+  }
+  .btn_primary {
+    font-size: 1rem;
+    padding: 12px 16px;
+  }
 }
