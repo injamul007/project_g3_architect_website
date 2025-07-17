@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>G3 Architect</title>
+    <!-- font awesome cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn link -->
     <link rel="stylesheet" href="./style/g3_architect.css" />
   </head>
   <body class="work-sans-font">
@@ -17,6 +20,9 @@
           <li class="nav_item"><a href="" class="nav_link text_gray">Contact Us</a></li>
           <li class="nav_item"><a href="" class="nav_link text_gray">Login</a></li>
         </ul>
+        <div class="font_awesome_menu_bar text_gray">
+          <span class="fa-solid fa-bars"></span>
+        </div>
       </nav>
       <!-- nav section ends here -->
       <!-- banner section starts here -->
@@ -51,7 +57,7 @@
       <!-- Teams section Ends here -->
       <!-- Feature will enjoy section starts here -->
       <section class="features display_flex">
-        <div class="display_flex">
+        <div class="display_flex features_info_div">
           <h3 id="feature_section_title" class="section_title">Features you will <br> love & enjoy</h3>
           <p class="text_light_gray features_description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even</p>
           <!-- feature card container -->
@@ -59,7 +65,7 @@
             <h4 class="feature_title">
               Desktop & Mobile Version
             </h4>
-            <p class="text_light_gray">
+            <p class="text_light_gray feature_card_description">
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized...........
             </p>
            </div>
@@ -67,7 +73,7 @@
             <h4 class="feature_title">
               Drag & Drop Builder
             </h4>
-            <p class="text_light_gray">
+            <p class="text_light_gray feature_card_description">
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized...........
             </p>
            </div>
@@ -75,7 +81,7 @@
             <h4 class="feature_title">
               Awesome Modern Design
             </h4>
-            <p class="text_light_gray">
+            <p class="text_light_gray feature_card_description">
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized...........
             </p>
            </div>
@@ -83,17 +89,19 @@
             <h4 class="feature_title">
               Super Easy to Edit
             </h4>
-            <p class="text_light_gray">
+            <p class="text_light_gray feature_card_description">
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized...........
             </p>
            </div>
         </div>
-        <div>
+        <div class="feature_architect">
           <img src="./images/architect.png" alt="Women_architect_image">
-          <button id="experience_badge" class="btn_primary">
-            <span class="experience_year">10+Year</span> <br>
+          <div class="btn_div">
+            <button id="experience_badge" class="btn_primary">
+            <span id="experience_year">10+Year</span> <br>
             <span>Experience</span>
           </button>
+          </div>
         </div>
       </section>
       <!-- Feature will enjoy section Ends here -->
@@ -142,8 +150,12 @@
       </section>
       <!-- Our sponsors section Ends here -->
     </main>
-    <!-- main section starts here -->
-    <footer></footer>
+    <!-- main section Ends here -->
+    <!-- Footer section Starts here -->
+    <footer class="footer_section bg_light text_gray">
+      <p class="footer_description">All rights reserved copyright@2023 startup landing page design</p>
+    </footer>
+    <!-- Footer section Ends here -->
   </body>
   </html>
   
